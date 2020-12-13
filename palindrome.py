@@ -1,9 +1,8 @@
+a="MADAM"
 def isPalindromefunction(a):
   return a==a [::-1]
-a="MADAM"
-ans=isPalindromefunction(a)
-if ans:
-  print("MADAM is a palindrome!!")
+if isPalindromefunction(a):
+  print(f"{a} is a palindrome!!")
 else:
-  print("MADAM is not a palindrome")
+  print(f"{a} is not a palindrome")
   
